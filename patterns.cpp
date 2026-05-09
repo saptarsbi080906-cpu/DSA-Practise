@@ -169,11 +169,12 @@ int main()
     }*/
 
     /*---------------------End---------------------*/
+    // Reverse Triangle Pattern
 
     /*
-    1 
-    2 1 
-    3 2 1 
+    1
+    2 1
+    3 2 1
     4 3 2 1 */
 
     /*
@@ -195,5 +196,56 @@ int main()
     }
     */
 
+    /*---------------------End---------------------*/
+    // Floyd's Triangle Pattern
+    /*
+    1
+    2 3
+    4 5 6
+    7 8 9 10
+    11 12 13 14 15
+    */
+
+    /*
+    int n;
+    cout << "Enter 'n' = ";
+    cin >> n;
+
+   int num = 1;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < i + 1; j++)
+        {
+            cout << num << " ";
+            num++;
+        }
+        cout << endl;
+        }
+    */
+
+    // Floyd's Triangle Pattern(Character Version)
+    /*
+    A
+    B C
+    D E F
+    G H I J
+    K L M N O
+    */
+
+    /*
+    int n;
+    cout << "Enter 'n' = ";
+    cin >> n;
+
+   char ch = 'A';
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < i + 1; j++)
+        {
+            cout << ch << " ";
+            ch++;
+        }
+        cout << endl;}
+    */
     return 0;
 }
